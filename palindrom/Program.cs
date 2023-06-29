@@ -1,5 +1,6 @@
-﻿Console.Write("Введите пятизначное число: ");
-int num = Convert.ToInt32(Console.ReadLine());
+﻿Console.Clear();
+Console.Write("Введите пятизначное число: ");
+int num = int.Parse(Console.ReadLine());
 
 int n1 = num / 10000;
 int n2 = num / 1000 % 10;
